@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guest_lists",
+  "info": {
+    "singularName": "guest-list",
+    "pluralName": "guest-lists",
+    "displayName": "Guest List"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
