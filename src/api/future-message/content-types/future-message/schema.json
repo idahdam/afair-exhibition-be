@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "future_messages",
+  "info": {
+    "singularName": "future-message",
+    "pluralName": "future-messages",
+    "displayName": "Future Message"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "message": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
