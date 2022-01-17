@@ -4,7 +4,8 @@
   "info": {
     "singularName": "art",
     "pluralName": "arts",
-    "displayName": "Art"
+    "displayName": "Art",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,15 +21,36 @@
       "required": true
     },
     "art": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "content": {
       "type": "richtext",
+      "required": true
+    },
+    "tags": {
+      "type": "enumeration",
+      "enum": [
+        "compact_living",
+        "i_sense_therefore_i_feel",
+        "beyond_our_senses",
+        "what_i_really_want",
+        "in_order_to",
+        "our_body",
+        "in_action",
+        "others_around",
+        "among_our_peers",
+        "better_version_of_us",
+        "to_fulfill",
+        "ecosystem_made_by_our_own_hands",
+        "mobilize_elsewhere",
+        "keeping_it_running",
+        "waste_no_more"
+      ],
       "required": true
     }
   }
