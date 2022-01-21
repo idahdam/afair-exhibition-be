@@ -35,23 +35,31 @@
     "tags": {
       "type": "enumeration",
       "enum": [
-        "compact_living",
         "i_sense_therefore_i_feel",
-        "beyond_our_senses",
-        "what_i_really_want",
-        "in_order_to",
-        "our_body",
-        "in_action",
-        "others_around",
-        "among_our_peers",
-        "better_version_of_us",
-        "to_fulfill",
+        "past_events_and_beyond",
+        "the_customized_individuality",
+        "linking_the_system_gap",
+        "the_augmented_body",
+        "provoking_the_body",
+        "integrating_the_physical_and_the_digital",
+        "among_the_culture_and_the_everyday",
+        "sharing_knowledge_and_information",
+        "speculating_the_industries",
         "ecosystem_made_by_our_own_hands",
-        "mobilize_elsewhere",
-        "keeping_it_running",
+        "speed_and_transition",
+        "keeping_it_running_performative_systems",
         "waste_no_more"
       ],
       "required": true
+    },
+    "part": {
+      "type": "enumeration",
+      "enum": [
+        "altering_the_self",
+        "bodily_presence_in_space_to_space",
+        "redefine_the_public",
+        "environment_reconstruct"
+      ]
     }
   }
 }
